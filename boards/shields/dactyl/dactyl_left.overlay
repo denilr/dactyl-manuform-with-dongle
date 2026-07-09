@@ -3,3 +3,6 @@
 // instructions.
 
 #include "dactyl.dtsi"
+
+&kscan0 {
+};

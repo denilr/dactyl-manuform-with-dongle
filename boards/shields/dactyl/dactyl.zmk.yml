@@ -1,24 +1,13 @@
-# This file was generated from a template. Edit it to match your keyboard.
-# See https://zmk.dev/docs/development/hardware-integration/hardware-metadata-files
-# for instructions.
-
 file_format: "1"
 id: dactyl
 name: dactyl-dongle
 type: shield
-
-# Set this to a URL that documents the keyboard.
-url: https://example.com
-
-# Add any features your keyboard supports here.
-# See https://zmk.dev/docs/development/hardware-integration/hardware-metadata-files#features
+url: https://github.com/denilr/dactyl-manuform-with-dongle
 features:
   - keys
   - studio 
-
 requires:
   - nice_nano
-
 siblings:
   - dactyl_left
   - dactyl_right

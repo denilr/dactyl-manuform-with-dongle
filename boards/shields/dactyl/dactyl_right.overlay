@@ -9,3 +9,6 @@
     col-offset = <5>;
 };
 
+&kscan0 {
+};
+
