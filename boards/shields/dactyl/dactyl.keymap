@@ -12,7 +12,7 @@
 	&kp Q        &kp W        	&kp E        &kp R         &kp T                         &kp Y        &kp U        &kp I        &kp O        &kp P
     &mt LSHIFT A &kp S        	&kp D        &kp F         &kp G                         &kp H        &kp J        &kp K        &kp L        &kp SEMI
     &kp Z        &kp X        	&kp C        &kp V         &kp B                         &kp N        &kp M        &kp COMMA    &kp DOT      &kp FSLH	
-				 &mt LALT LBKT 	&kp RBKT  	 &kp LCTRL     &mt LSHIFT BSPC  			 &lt 3 SPACE  &mt LSHIFT RET 	&kp minus 	&mt LCTRL SQT
+				 &mt LALT LBKT 	&kp RBKT  	 &kp LCTRL     &mt LSHIFT BSPC  			 &lt 3 SPACE  &mt LSHIFT RET 	&kp MINUS 	&mt LCTRL SQT
 				 &to 2 			&ctrl_shift  &lt 1 HOME    &kp END						 &kp DEL 	  &lt 1 TAB 		&kp LGUI 	&to 2
                         >;
                 };
