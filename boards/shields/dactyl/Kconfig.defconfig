@@ -1,16 +1,17 @@
-if SHIELD_DACTYL_LEFT
+if SHIELD_DACTYL_DONGLE
 
-config ZMK_KEYBOARD_NAME
-    default "dactyl-dongle"
+	config ZMK_KEYBOARD_NAME 
+		default "Dactyl Dongle"
 
-config ZMK_SPLIT_ROLE_CENTRAL
-    default y
+	config ZMK_SPLIT_ROLE_CENTRAL
+		default y
 
-endif # SHIELD_DACTYL_LEFT
+	config ZMK_SPLIT
+		default y
+endif
 
 if SHIELD_DACTYL_LEFT || SHIELD_DACTYL_RIGHT
-
-config ZMK_SPLIT
-    default y
-
-endif # SHIELD_DACTYL_LEFT || SHIELD_DACTYL_RIGHT
+	
+	config ZMK_SPLIT
+		default y
+endif
