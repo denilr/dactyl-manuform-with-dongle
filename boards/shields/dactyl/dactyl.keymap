@@ -22,15 +22,11 @@
 	&kp Z 	&kp X 		&kp C 		&kp V 		&kp B  					 	 &kp N 			&kp M  			&kp COMMA 	&kp DOT 	&kp FSLH 
 			&kp LBKT 	&kp RBKT  	&kp LCTRL 	&mt LSHIFT BSPC  			 &lt 3 SPACE 	&mt LSHIFT RET 	&kp minus 	&mt LCTRL SQT
 			&mo 2 		&c_s_t LC(LSHIFT) GRAVE &lt 1 HOME  &kp END			 &kp DEL 		&lt 1 TAB 		&kp LGUI 	&mo 2
-						        	
-						         	
                         >;
                 };
                 layer_1 {
                         display-name = "layer_1";
 						bindings = <
-	&bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_CLR_ALL
-	
 	&kp ESC         &kp TAB         &mmv MOVE_UP    &trans           &msc SCRL_UP		   		 &kp C_VOL_UP  &kp HOME    &kp UP            &kp END     &kp PAGE_UP
 	&kp LEFT_SHIFT  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_DOWN  			 &kp K_MUTE    &kp LEFT    &kp DOWN          &kp RIGHT   &kp PAGE_DOWN
 	&kp LCTRL       &mkp LCLK       &mkp MCLK       &mkp RCLK        &kp F5  					 &kp C_VOL_DN  &kp K_PREV  &kp C_PLAY_PAUSE  &kp C_NEXT  &kp K_MENU	
