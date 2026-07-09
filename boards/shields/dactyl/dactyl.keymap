@@ -66,6 +66,5 @@
             bindings = <&kp LCTRL &kp LSHIFT>;
             label = "MACRO_CTRL_SHIFT";
         };
-    };
-    };
+	};
 };
