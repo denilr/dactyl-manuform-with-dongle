@@ -1,13 +1,12 @@
-// See https://zmk.dev/docs/development/hardware-integration/physical-layouts
-// for how to configure this.
-
 #include <physical_layouts.dtsi>
 
 / {
-    physical_layout0: physical_layout0 {
+    physical_layout0: physical_layout_0 {
         compatible = "zmk,physical-layout";
         display-name = "dactyl layout";
-        transform = <&default_transform>;
+
+        kscan = <&kscan0>;
+        transform = <&matrix_transform0>;
 
         keys  //                     w   h    x    y     rot    rx    ry
             = <&key_physical_attrs 100 100    0    0       0     0     0>
@@ -48,17 +47,14 @@
             , <&key_physical_attrs 100 100 1100  400       0     0     0>
             , <&key_physical_attrs 100 100 1200  300       0     0     0>
             , <&key_physical_attrs 100 100 1300  300       0     0     0>
-            , <&key_physical_attrs 100 100  500  600       0     0     0>
             , <&key_physical_attrs 100 100  600  600       0     0     0>
-            , <&key_physical_attrs 100 100  500  500       0     0     0>
             , <&key_physical_attrs 100 100  600  500       0     0     0>
+            , <&key_physical_attrs 100 100  500  600       0     0     0>
+            , <&key_physical_attrs 100 100  500  500       0     0     0>
             , <&key_physical_attrs 100 100  800  500       0     0     0>
-            , <&key_physical_attrs 100 100  900  500       0     0     0>
             , <&key_physical_attrs 100 100  800  600       0     0     0>
+            , <&key_physical_attrs 100 100  900  500       0     0     0>
             , <&key_physical_attrs 100 100  900  600       0     0     0>
             ;
     };
 };
-
-
-
